@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="background-color: rgba(128, 128, 128, 0.425); display:flex; justify-content:center; flex-direction: column;">
+       <div> <h1>Number Guessing Game b/w 1 to 100</h1></div>
+       <div style="margin-top:10px"> <form >
+            <label style="margin-top: 50px;">
+                <b>Enter the Number:</b>
+                <input type="text" id="guessed">
+                </label>
+                <br>
+          <button type="submit">Submit</button>
+        </div>
+    </div>
+    <div id="results" style="background-color: #38b7bb; display: flex ;justify-content:center; flex-direction: column;">
+    <p><b>Previous Guesses:</b><span class="Previousguesses"></span></p>
+    <p><b>Guesses Remaining:</b><span class="Remainingguesses"></span></p>
+</div>
+</body>
+<script src="project4.js"></script>
+</html>
